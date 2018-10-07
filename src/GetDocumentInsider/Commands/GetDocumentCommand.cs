@@ -17,7 +17,6 @@ namespace Microsoft.Extensions.ApiDescription.Client.Commands
         internal const string FallbackDocumentName = "v1";
         internal const string FallbackMethod = "Generate";
         internal const string FallbackService = "Microsoft.Extensions.ApiDescription.IDocumentProvider";
-        private const string WorkerType = "Microsoft.Extensions.ApiDescription.Client.Commands.GetDocumentCommandWorker";
 
         private CommandOption _documentName;
         private CommandOption _method;
